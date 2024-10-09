@@ -1,0 +1,9 @@
+Considerando que el componente simple de login tiene un formulario con dos campos de texto (usuario y contraseña) y un botón de login, se puede testear de la siguiente manera:
+
+Para testear este tipo de componentes es mejor utilizar test de integración y unitarios, ya que se necesita probar el componente completo, no solo una parte de él.
+Test unitarios para la parte de validacion de los campos, y test de integración para probar que el componente funcione correctamente al loguearse.
+Tambien hay que tener en cuenta que existe una llamada a un endpoint (al logguearse) y se debe testear que se haga correctamente.
+
+Podrian agregarse test E2E para comprobar el flujo completo de logueo, pero no es necesario ya que se estaria testeando lo mismo que en los test de integración.
+
+(los test estan en la carpeta de LoginForm)
